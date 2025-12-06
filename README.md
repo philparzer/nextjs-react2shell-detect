@@ -1,4 +1,4 @@
-Chrome extension that runs next.version locally on all pages you visit and injects a warning popover if the site runs a next version vulnerable to [react2shell](https://vercel.com/blog/resources-for-protecting-against-react2shell)
+Chrome extension that runs ```next.version``` locally and injects a warning popover if the site runs a next version vulnerable to [react2shell](https://vercel.com/blog/resources-for-protecting-against-react2shell)
 
 <img width="813" height="582" alt="Group 350" src="https://github.com/user-attachments/assets/6fc7606b-5bb9-4111-b891-872822df93bb" />
 
