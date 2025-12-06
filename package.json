@@ -1,8 +1,8 @@
 {
-  "name": "react2shell-soft-detect",
-  "displayName": "React2shell soft detect",
+  "name": "nextjs-react2shell-detect",
+  "displayName": "Next.js React2shell detector",
   "version": "0.0.1",
-  "description": "react2shell local-detect",
+  "description": "detects vulnerable Next.js versions that are susceptible to React2shell attacks locally in the browser",
   "author": "adler.studio",
   "scripts": {
     "dev": "plasmo dev",
@@ -24,8 +24,10 @@
     "typescript": "5.3.3"
   },
   "manifest": {
+    "permissions": ["scripting"],
     "host_permissions": [
-      "https://*/*"
+      "https://*/*",
+      "http://*/*"
     ]
   }
 }
