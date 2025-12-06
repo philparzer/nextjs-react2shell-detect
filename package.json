@@ -28,6 +28,19 @@
     "host_permissions": [
       "https://*/*",
       "http://*/*"
-    ]
+    ],
+    "icons": {
+      "16": "../assets/icon.png",
+      "32": "../assets/icon.png",
+      "48": "../assets/icon.png",
+      "128": "../assets/icon.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "../assets/icon.png",
+        "32": "../assets/icon.png"
+      }
+    }
   }
 }
